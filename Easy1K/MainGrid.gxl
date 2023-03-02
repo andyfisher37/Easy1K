@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GridEXLayoutFile LayoutType="Janus.Windows.GridEX.GridEX" LayoutVersion="1.1">
+    <RootTable>
+        <Columns Collection="true" ElementName="Column">
+            <Column0 ID="KEY_OTCH">
+                <Caption>Код ДГ</Caption>
+                <DataTypeCode>String</DataTypeCode>
+                <TypeNameEmptyStringValue>System.String</TypeNameEmptyStringValue>
+                <EmptyStringValue />
+                <DataMember>KEY_OTCH</DataMember>
+                <Key>KEY_OTCH</Key>
+                <MaxLength>3</MaxLength>
+                <Position>0</Position>
+            </Column0>
+            <Column1 ID="TEXT_QRY">
+                <Caption>Текст основного запроса</Caption>
+                <DataTypeCode>String</DataTypeCode>
+                <TypeNameEmptyStringValue>System.String</TypeNameEmptyStringValue>
+                <EmptyStringValue />
+                <DataMember>TEXT_QRY</DataMember>
+                <Key>TEXT_QRY</Key>
+                <MaxLength>254</MaxLength>
+                <Position>1</Position>
+                <Width>450</Width>
+            </Column1>
+            <Column2 ID="NAME_FORM">
+                <Caption>Наименование должностной группы</Caption>
+                <DataTypeCode>String</DataTypeCode>
+                <TypeNameEmptyStringValue>System.String</TypeNameEmptyStringValue>
+                <EmptyStringValue />
+                <DataMember>NAME_FORM</DataMember>
+                <Key>NAME_FORM</Key>
+                <MaxLength>180</MaxLength>
+                <Position>2</Position>
+                <Width>550</Width>
+            </Column2>
+            <Column3 ID="LIDER">
+                <Caption>Рук-во</Caption>
+                <DataTypeCode>Boolean</DataTypeCode>
+                <TypeNameEmptyStringValue>NULL</TypeNameEmptyStringValue>
+                <EmptyStringValue />
+                <ColumnType>CheckBox</ColumnType>
+                <DataMember>LIDER</DataMember>
+                <EditType>CheckBox</EditType>
+                <Key>LIDER</Key>
+                <Position>3</Position>
+            </Column3>
+            <Column4 ID="SLUZBA_SQL">
+                <Caption>SLUZBA SQL</Caption>
+                <DataTypeCode>String</DataTypeCode>
+                <DataMember>SLUZBA_SQL</DataMember>
+                <Key>SLUZBA_SQL</Key>
+                <MaxLength>100</MaxLength>
+                <Position>4</Position>
+            </Column4>
+            <Column5 ID="DOLZNOST_SQL">
+                <Caption>DOLZNOST SQL</Caption>
+                <DataTypeCode>String</DataTypeCode>
+                <DataMember>DOLZNOST_SQL</DataMember>
+                <Key>DOLZNOST_SQL</Key>
+                <MaxLength>200</MaxLength>
+                <Position>5</Position>
+            </Column5>
+            <Column6 ID="PODRAZD_SQL">
+                <Caption>PODRAZD SQL</Caption>
+                <DataTypeCode>String</DataTypeCode>
+                <DataMember>PODRAZD_SQL</DataMember>
+                <Key>PODRAZD_SQL</Key>
+                <MaxLength>100</MaxLength>
+                <Position>6</Position>
+            </Column6>
+            <Column7 ID="IN_AIS">
+                <Caption>В АИС С-К</Caption>
+                <DataTypeCode>Boolean</DataTypeCode>
+                <ColumnType>CheckBox</ColumnType>
+                <DataMember>IN_AIS</DataMember>
+                <EditType>CheckBox</EditType>
+                <Key>IN_AIS</Key>
+                <Position>7</Position>
+            </Column7>
+        </Columns>
+        <GroupCondition />
+    </RootTable>
+    <RowWithErrorsFormatStyle>
+        <PredefinedStyle>RowWithErrorsFormatStyle</PredefinedStyle>
+    </RowWithErrorsFormatStyle>
+    <LinkFormatStyle>
+        <PredefinedStyle>LinkFormatStyle</PredefinedStyle>
+    </LinkFormatStyle>
+    <CardCaptionFormatStyle>
+        <PredefinedStyle>CardCaptionFormatStyle</PredefinedStyle>
+    </CardCaptionFormatStyle>
+    <GroupByBoxFormatStyle>
+        <PredefinedStyle>GroupByBoxFormatStyle</PredefinedStyle>
+    </GroupByBoxFormatStyle>
+    <GroupByBoxInfoFormatStyle>
+        <PredefinedStyle>GroupByBoxInfoFormatStyle</PredefinedStyle>
+    </GroupByBoxInfoFormatStyle>
+    <GroupRowFormatStyle>
+        <PredefinedStyle>GroupRowFormatStyle</PredefinedStyle>
+    </GroupRowFormatStyle>
+    <HeaderFormatStyle>
+        <PredefinedStyle>HeaderFormatStyle</PredefinedStyle>
+    </HeaderFormatStyle>
+    <PreviewRowFormatStyle>
+        <PredefinedStyle>PreviewRowFormatStyle</PredefinedStyle>
+    </PreviewRowFormatStyle>
+    <RowFormatStyle>
+        <PredefinedStyle>RowFormatStyle</PredefinedStyle>
+    </RowFormatStyle>
+    <SelectedFormatStyle>
+        <PredefinedStyle>SelectedFormatStyle</PredefinedStyle>
+    </SelectedFormatStyle>
+    <SelectedInactiveFormatStyle>
+        <PredefinedStyle>SelectedInactiveFormatStyle</PredefinedStyle>
+    </SelectedInactiveFormatStyle>
+    <WatermarkImage />
+    <Font>Microsoft Sans Serif, 8.25pt</Font>
+    <VisualStyle>Standard</VisualStyle>
+    <RowHeaders>True</RowHeaders>
+</GridEXLayoutFile>
